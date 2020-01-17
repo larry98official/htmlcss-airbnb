@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://www.marketingfacts.nl/images/imagesblog/Airbnb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 300px;
+    height: 90%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+img {
+    width: 97%;
+    height: 165px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.prima {
+    color: black;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.seconda {
+    color: black;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.terza {
+    color: black;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+h2 {
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255,255,255,0.3);
+}
